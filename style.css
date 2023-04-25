@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(179, 252, 252, 0.927);
+}
+#add{
+    position: fixed;
+    right: 10px ;
+    top:10px;
+    color: white;
+    padding: 2px;
+    height: 30px;
+    width: 100px;
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.911);
+    
+}
+
+
+#main{
+    margin-top: 68px;
+}
+
+.notes{
+    height: 380px;
+    width: 350px;
+    
+    margin: None;
+    background-color: rgba(254, 249, 242, 0.84);
+    margin-right: 20px;
+}
+
+.notes input{
+
+    cursor: pointer;
+    height: 380px;
+    width: 100%;
+    
+    border: none;
+    padding: none;
+}
+
+.notes #toolbar{
+    width: 100%;
+    color: white;
+    
+  
+    display: flex;
+    justify-content: end;
+
+    
+
+    background-color: rgba(30, 30, 30, 0.911);
+}
+.notes textarea{
+    font-size: 16px;
+    border: none;
+    width: 344px;
+    height: 345px;
+   
+}
+.notes #toolbar i{
+    padding:8px;
+    cursor: pointer;
+}
+
+#main{
+    display: flex;
+}
+
